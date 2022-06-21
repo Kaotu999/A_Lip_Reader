@@ -26,7 +26,7 @@ for line in open("cmudict-0.7b", 'r', errors='replace').readlines():
     pronunciations[word] = []
   pronunciations[word].append(phones)
 
-model = keras.models.load_model("Models/model_accuracy_31_loss_2.4")
+model = keras.models.load_model("model_accuracy_35_loss_2.2/")
 
 def predict(video):
     data = []
