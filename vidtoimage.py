@@ -1,4 +1,3 @@
-from cv2 import VideoWriter
 import face_recognition
 import cv2
 
